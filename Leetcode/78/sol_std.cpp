@@ -7,9 +7,8 @@
 
 class Solution {
 public:
-    vector<vector<int>> ret;
-    vector<int> t;
-    
+    vector<vector<int>> ret;        //store results
+    vector<int> t;                  //dynamic array
     void dfs(vector<int>& nums, int cur) {
         if (cur == nums.size()) {
             ret.push_back(t);
